@@ -21,6 +21,7 @@ class PublishPostForm extends Form
      */
     public function persist()
     {
-        var_dump($this->fields());
+        // $post = Post::create($this->fields());
+        // $post->doSomethingElse();
     }
 }
